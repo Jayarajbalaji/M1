@@ -10,6 +10,7 @@ Write a C program to read 3 characters one by one and print the characters in a 
 4.	End the program.
 
 ## PROGRAM:
+~~~
 #include <stdio.h>
 int main()
 {
@@ -18,6 +19,7 @@ int main()
     printf("The reverse of %c%c%c is %c%c%c",a,b,c,c,b,a);
     return 0;
 }
+~~~
 ## OUTPUT:
 ![437877579-b0eeb07b-ee0c-497c-9e11-84a48b556fb2](https://github.com/user-attachments/assets/b5472239-6ec5-4af2-99ea-835a9cb43f4e)
 
@@ -38,6 +40,7 @@ Write a C program to read A values and check whether A is positive number or not
 6.End the program.
 
 # PROGRAM:
+~~~
 #include <stdio.h>
 
 int main() {
@@ -52,6 +55,7 @@ int main() {
 
     return 0;
 }
+~~~
 # OUTPUT:
 ![437880472-9d436810-f69f-4983-a79c-00917a09c141](https://github.com/user-attachments/assets/b77c02dc-ad08-4389-ae7d-89da9d305dfb)
 # RESULT:
@@ -75,6 +79,7 @@ Write a program to find minimum between two fraction numbers using conditional o
 7.	Print the minimum value.
 
 ## PROGRAM:
+~~~
 #include <stdio.h>
 
 int main() {
@@ -89,6 +94,7 @@ int main() {
 
     return 0;
 }
+~~~
 ## OUTPUT:
 ![437876393-9068920a-3931-4fae-89d1-0e67e175ee64](https://github.com/user-attachments/assets/e5fe6f23-c830-45b8-ac2c-ff60f457506e)
 
@@ -112,6 +118,7 @@ Write a C program to check whether the input value is equal to 1 using simple if
 6.	End the program.
 
 ## PROGRAM:
+~~~
 #include <stdio.h>
 int main()
 {
@@ -122,6 +129,7 @@ int main()
         printf("TRUE");
     }
 }
+~~~
 ## OUTPUT:
 ![437877757-46fe5682-6daa-41ec-a19c-72819925e611](https://github.com/user-attachments/assets/178d59fc-3c59-4fce-98cd-191761bb7676)
 
@@ -155,6 +163,7 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+~~~
 #include <stdio.h>
 #include <string.h>
 
@@ -182,7 +191,7 @@ int main()
        printf("Total Marks = %d\nPercentage = %5.2f\nDivision = %s\n",total,per,div);
        return 0;
 }
-
+~~~
 ## OUTPUT:
 ![437877942-88f846dc-996c-44b1-a01d-a429635a5d97](https://github.com/user-attachments/assets/25e3128e-a54d-44b4-af6e-d6475a8962a6)
 
